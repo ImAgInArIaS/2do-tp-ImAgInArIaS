@@ -1,0 +1,17 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">latitud</th>
+                <th scope="col">longitud</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let a of listaMarcadores">
+                <td>{{a.latitud}}</td>
+                <td>{{a.longitud}}</td>
+            </tr>
+        </tbody >
+    </table>
+</div>
